@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
@@ -245,7 +245,6 @@ export default function LandingPage() {
         <FooterSocial
           logoText="Burger King"
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_35ggfqwTaDTPV7ncegJJc94SZmR/uploaded-1765271275772-i1d8p9lm.jpg"
-          logoAlt="Burger King Logo"
           copyrightText="© Burger King Corporation 2025. All rights reserved."
           columns={[
             {
